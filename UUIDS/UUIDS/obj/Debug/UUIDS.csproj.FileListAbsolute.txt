@@ -12,3 +12,16 @@ C:\Users\0_311_5\Desktop\UUIDS\UUIDS\UUIDS\obj\Debug\UUIDS.csproj.CoreCompileInp
 C:\Users\0_311_5\Desktop\UUIDS\UUIDS\UUIDS\obj\Debug\UUIDS.csproj.CopyComplete
 C:\Users\0_311_5\Desktop\UUIDS\UUIDS\UUIDS\obj\Debug\UUIDS.exe
 C:\Users\0_311_5\Desktop\UUIDS\UUIDS\UUIDS\obj\Debug\UUIDS.pdb
+D:\GitHub\UUIDS\UUIDS\UUIDS\bin\Debug\UUIDS.exe.config
+D:\GitHub\UUIDS\UUIDS\UUIDS\bin\Debug\UUIDS.exe
+D:\GitHub\UUIDS\UUIDS\UUIDS\bin\Debug\UUIDS.pdb
+D:\GitHub\UUIDS\UUIDS\UUIDS\bin\Debug\Guna.UI2.dll
+D:\GitHub\UUIDS\UUIDS\UUIDS\obj\Debug\UUIDS.csproj.AssemblyReference.cache
+D:\GitHub\UUIDS\UUIDS\UUIDS\obj\Debug\UUIDS.Form1.resources
+D:\GitHub\UUIDS\UUIDS\UUIDS\obj\Debug\UUIDS.Form2.resources
+D:\GitHub\UUIDS\UUIDS\UUIDS\obj\Debug\UUIDS.Properties.Resources.resources
+D:\GitHub\UUIDS\UUIDS\UUIDS\obj\Debug\UUIDS.csproj.GenerateResource.cache
+D:\GitHub\UUIDS\UUIDS\UUIDS\obj\Debug\UUIDS.csproj.CoreCompileInputs.cache
+D:\GitHub\UUIDS\UUIDS\UUIDS\obj\Debug\UUIDS.csproj.CopyComplete
+D:\GitHub\UUIDS\UUIDS\UUIDS\obj\Debug\UUIDS.exe
+D:\GitHub\UUIDS\UUIDS\UUIDS\obj\Debug\UUIDS.pdb

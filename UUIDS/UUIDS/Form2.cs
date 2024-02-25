@@ -12,6 +12,10 @@ namespace UUIDS
 {
     public partial class Form2 : Form
     {
+        private bool isDragging = false;
+        private Point lastCursorPos;
+
+        
         public Form2()
         {
             InitializeComponent();
@@ -28,5 +32,29 @@ namespace UUIDS
         {
 
         }
+        private void panel2_MouseDown(object sender, MouseEventArgs e)
+        {
+            isDragging = true;
+            lastCursorPos = e.Location;
+        }
+
+        private void panel2_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (isDragging)
+            {
+                this.Location = new Point(
+                    (this.Location.X - lastCursorPos.X) + e.X,
+                    (this.Location.Y - lastCursorPos.Y) + e.Y);
+
+                this.Update();
+            }
+
+        }
+
+        private void panel2_MouseUp(object sender, MouseEventArgs e)
+        {
+            isDragging = false;
+        }
+        
     }
 }

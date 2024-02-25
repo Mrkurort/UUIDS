@@ -12,24 +12,37 @@ namespace UUIDS
 {
     public partial class Form1 : Form
     {
+        private bool isDragging = false;
+        private Point lastCursorPos;
+
+
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void studBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        private void panel2_MouseDown(object sender, MouseEventArgs e)
         {
-            this.Validate();
-            this.studBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.dataSet1);
+            isDragging = true;
+            lastCursorPos = e.Location;
+        }
+
+        private void panel2_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (isDragging)
+            {
+                this.Location = new Point(
+                    (this.Location.X - lastCursorPos.X) + e.X,
+                    (this.Location.Y - lastCursorPos.Y) + e.Y);
+
+                this.Update();
+            }
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void panel2_MouseUp(object sender, MouseEventArgs e)
         {
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "dataSet1.Stud". При необходимости она может быть перемещена или удалена.
-            this.studTableAdapter.Fill(this.dataSet1.Stud);
-
+            isDragging = false;
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)

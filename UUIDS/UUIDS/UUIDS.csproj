@@ -74,6 +74,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StudInfo.Designer.cs">
+      <DependentUpon>StudInfo.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,6 +96,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="StudInfo.resx">
+      <DependentUpon>StudInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="DataSet1.xsc">
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
@@ -117,6 +126,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\x1500_78e1fdfdc0a7959a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\free-icon-teach-4696866.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
