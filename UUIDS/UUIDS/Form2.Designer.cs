@@ -132,6 +132,7 @@
             this.guna2Button2.Size = new System.Drawing.Size(367, 56);
             this.guna2Button2.TabIndex = 1;
             this.guna2Button2.Text = "Студенты";
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2Button1
             // 
@@ -155,6 +156,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.Controls.Add(this.guna2ControlBox1);
             this.panel2.Controls.Add(this.guna2ControlBox2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;

@@ -25,3 +25,5 @@ D:\GitHub\UUIDS\UUIDS\UUIDS\obj\Debug\UUIDS.csproj.CoreCompileInputs.cache
 D:\GitHub\UUIDS\UUIDS\UUIDS\obj\Debug\UUIDS.csproj.CopyComplete
 D:\GitHub\UUIDS\UUIDS\UUIDS\obj\Debug\UUIDS.exe
 D:\GitHub\UUIDS\UUIDS\UUIDS\obj\Debug\UUIDS.pdb
+D:\GitHub\UUIDS\UUIDS\UUIDS\obj\Debug\UUIDS.StudInfo.resources
+D:\GitHub\UUIDS\UUIDS\UUIDS\obj\Debug\UUIDS.Form3.resources

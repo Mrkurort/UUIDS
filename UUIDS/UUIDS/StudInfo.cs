@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,44 @@ namespace UUIDS
         public StudInfo()
         {
             InitializeComponent();
+            
         }
+
+        public Guna2TextBox GTB1
+        {
+            get { return guna2TextBox1; }
+            set { guna2TextBox1 = value; }
+        }
+        public Guna2TextBox GTB2
+        {
+            get { return guna2TextBox2; }
+            set { guna2TextBox2 = value; }
+        }
+        public Guna2TextBox GTB3
+        {
+            get { return guna2TextBox3; }
+            set { guna2TextBox3 = value; }
+        }
+        public Guna2TextBox GTB4
+        {
+            get { return guna2TextBox4; }
+            set { guna2TextBox4 = value; }
+        }
+        public Guna2TextBox GTB5
+        {
+            get { return guna2TextBox5; }
+            set { guna2TextBox5 = value; }
+        }
+        public Guna2TextBox GTB6
+        {
+            get { return guna2TextBox6; }
+            set { guna2TextBox6 = value; }
+        }
+        public Guna2TextBox GTB7
+        {
+            get { return guna2TextBox7; }
+            set { guna2TextBox7 = value; }
+        }
+
     }
 }
