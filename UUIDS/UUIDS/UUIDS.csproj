@@ -137,7 +137,13 @@
     <None Include="Resources\x1500_78e1fdfdc0a7959a.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\trashcan.png" />
+    <None Include="Resources\plus.png" />
+    <None Include="Resources\pencil.png" />
+    <None Include="Resources\free-icon-schedule-5807616.png" />
     <Content Include="Resources\free-icon-teach-4696866.ico" />
+    <None Include="Resources\x1500_78e1fdfdc0a7959a1.png" />
+    <None Include="Resources\x1500_78e1fdfdc0a7959a.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

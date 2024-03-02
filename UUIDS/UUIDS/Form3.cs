@@ -102,7 +102,7 @@ namespace UUIDS
             {
                 conn.Open();
 
-                SqlCommand sqlCom = new SqlCommand($"Select * from Stud where Группа like @Searth", conn);
+                SqlCommand sqlCom = new SqlCommand($"Select * from Stud where {guna2ComboBox1.SelectedItem} like @Searth", conn);
                 sqlCom.Parameters.AddWithValue("@Searth",(string.Format("{0}%", guna2TextBox1.Text)));
                 SqlDataReader reader = sqlCom.ExecuteReader();
                 while (reader.Read())
@@ -125,6 +125,11 @@ namespace UUIDS
             }
         }
 
-        
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+            Form1 form = new Form1();
+            form.Show();
+            Close();
+        }
     }
 }

@@ -55,5 +55,17 @@ namespace UUIDS
             set { guna2TextBox7 = value; }
         }
 
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            var del = MessageBox.Show("Вы действительно хотите удалить карточку?", "Удаление", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (del == DialogResult.Yes)
+            {
+                var delC = MessageBox.Show("Подтверждение приведёт к безвозвратному удалению информации!", "Удаление", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (delC == DialogResult.Yes)
+                {
+
+                }
+            }
+        }
     }
 }

@@ -62,5 +62,12 @@ namespace UUIDS
             form3.Show();
             Close();
         }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+            Form1 form = new Form1();
+            form.Show();
+            Close();
+        }
     }
 }
